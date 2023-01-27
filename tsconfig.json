@@ -6,6 +6,7 @@
     "lib": ["ES6"], // 코드가 실행될 환경을 설정
     // DOM : 브라우저에서도 실행될 수 있게함.
     "strict": true, // 타입스크립트가 더욱 엄격해짐
-    "allowJs": true
+    "esModuleInterop": true,
+    "module": "CommonJS"
   }
 }
